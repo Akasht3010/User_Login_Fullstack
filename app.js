@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/dashboard', (req, res) => {
-    res.sendFile(path.join(__dirname, "public","dashboard", "dashboard.html"))
+    res.sendFile(path.join(__dirname, "public", "dashboard", "dashboard.html"))
 })
 
 app.listen(port, () => {
