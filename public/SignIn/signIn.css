@@ -30,6 +30,10 @@
     margin-left: 20px;
 }
 
+.navbar-brand.testing:hover {
+    color: grey;
+}
+
 .header {
     margin-top: 10%;
     color: white;

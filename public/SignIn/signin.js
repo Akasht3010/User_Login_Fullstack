@@ -1,5 +1,5 @@
-const submitBtn = document.getElementById('login')
-submitBtn.addEventListener('click', (event) => {
+const login = document.getElementById('login')
+login.addEventListener('click', (event) => {
     // event.preventDefault()
     window.location.href = "./dashboard"
 })
