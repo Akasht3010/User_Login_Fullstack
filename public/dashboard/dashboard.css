@@ -37,3 +37,12 @@
     margin-top: 5%;
     margin-left: 5%;
 }
+
+.table{
+    padding: 5% 5%;
+    opacity: 0.6;
+}
+
+.fontcolor{
+    color: white;
+}

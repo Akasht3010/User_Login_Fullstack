@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../SignIn/signIn.css">
+    <link rel="stylesheet" href="../Register/Register.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -19,11 +19,15 @@
     <div class="container text-center cont">
         <div class="row">
             <div class="col">
-                <h1 class="header">Welcome to log in page of my website</h1>
+                <h1 class="header">Register your species</h1>
                 <img class="img" src="../Assets/cat.jpg" alt="">
             </div>
             <div class="col">
-                <div class="form-floating mb-3 rightlogin">
+                <div class="form-floating entryname">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="enter your name">
+                    <label for="floatingInput">Enter Your Name</label>
+                </div>
+                <div class="form-floating rightlogin">
                     <input type="email" class="form-control emailid" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Email address</label>
                 </div>
@@ -31,16 +35,17 @@
                     <input type="password" class="form-control " id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                 </div>
-                <button type="submit" id="login" class="btn btn-success">Log In →</button>
+                <div class="form-floating confirmpass">
+                    <input type="password" class="form-control " id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Confirm Password</label>
+                </div>
                 <div class="register">
-                    <p>Dont have an account</p>
                     <button type="submit" id="register" class="btn btn-success registerbtn">Register →</button>
                 </div>
             </div>
-
         </div>
     </div>
-    <script src="../SignIn/signIn.js"></script>
+    <script src="../Register/Register.js"></script>
 </body>
 
 </html>
